@@ -1,0 +1,57 @@
+{
+	"name": "AzureBlobStorageLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDataSet",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Population.csv",
+				"container": "mydata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Vice President Johnson",
+				"type": "String"
+			},
+			{
+				"name": " Mr. Speaker",
+				"type": "String"
+			},
+			{
+				"name": " Mr. Chief Justice",
+				"type": "String"
+			},
+			{
+				"name": " President Eisenhower",
+				"type": "String"
+			},
+			{
+				"name": " Vice President Nixon",
+				"type": "String"
+			},
+			{
+				"name": " President Truman",
+				"type": "String"
+			},
+			{
+				"name": " reverend clergy",
+				"type": "String"
+			},
+			{
+				"name": " fellow citizens:",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

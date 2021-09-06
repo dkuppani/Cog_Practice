@@ -1,0 +1,9 @@
+{
+	"name": "DinPraADF2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2a07e939-df5c-49ef-a5df-a3745b2f3047",
+		"tenantId": "96ffe019-566f-45ba-b686-1fb1e46d491f"
+	}
+}
